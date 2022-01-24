@@ -56,3 +56,7 @@ cidade <- url %>%
   str_to_title()
 str_c(UF, " - ", cidade)
 ## [1] "AC - Rio Branco"
+
+install.packages(usethis)
+usethis::use_git()
+usethis::use_github()
